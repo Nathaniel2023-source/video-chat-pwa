@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="manifest" href="manifest.json">
+  <title>Video Call PWA</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Start a Video Call</h2>
+
+  <video id="localVideo" autoplay muted playsinline></video>
+  <video id="remoteVideo" autoplay playsinline></video>
+
+  <button onclick="startCall()">Start Call</button>
+
+  <h3>Contact Support</h3>
+  <a href="https://wa.me/234904957900" target="_blank">Chat on WhatsApp</a><br>
+  <a href="https://m.me/yourpage" target="_blank">Chat on Messenger</a>
+
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
+
+ 
